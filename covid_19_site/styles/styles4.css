@@ -1,0 +1,160 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 100vw;
+  z-index: 1000;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #00CC00;
+  color: #000000;
+}
+
+.navbar{
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 18%; 
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+}
+
+span{
+  background-color: #00CC00;
+  border-radius: 5px;
+}
+footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.bottombar{
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body{
+    background-color: #808080;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.header{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#image1{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1000px;
+  margin-top: -300px;
+}
+
+#image2{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 1000px;
+  margin-top: -400px;
+}
+
+@media screen and (max-width: 800px){
+  .navbar{
+  float: none;
+  padding: 12px 0;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  width: 100%; 
+  text-align: center;
+  }
+
+  ul{
+    width: 100%;
+  }
+
+  h1 span{
+    font-size: 20px;
+    padding: 5px;
+    display: inline-block;
+  }
+
+  h2{
+    margin-left: 15px;
+    font-size: 28px;
+  }
+
+  .content{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  #image1{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  #image2{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 4px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .header{
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
